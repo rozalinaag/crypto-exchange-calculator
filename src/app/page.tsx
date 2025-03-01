@@ -1,18 +1,21 @@
 import FreeQuery from '@/components/FreeQuery';
-import styles from './page.module.css';
+import css from './page.module.css';
 import Dropdown from '@/components/Dropdown/Dropdown';
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className={css.page}>
       Calculator
-      <div className="flex">
-        <div>
-          <div>Введите количесво</div>
-          <input /> <button>{`Рассчитать`}</button>
-        </div>
+      <div>
+        <div className={css.wrapper}>
+          <div>
+            <div>Введите количесво</div>
+            <input />
+          </div>
 
-        <Dropdown />
+          <Dropdown />
+        </div>
+        <button>{`Рассчитать`}</button>
       </div>
       <FreeQuery symbol={'BTC_USDT'} />
     </div>
