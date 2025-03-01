@@ -13,9 +13,10 @@ export default function Home() {
             <input />
           </div>
 
-          <Dropdown />
+          <Dropdown text="Ваша валюта" />
+          <Dropdown text="Перевезти в" />
         </div>
-        <button>{`Рассчитать`}</button>
+        <button className={css.button}>{`Рассчитать`}</button>
       </div>
       <FreeQuery symbol={'BTC_USDT'} />
     </div>

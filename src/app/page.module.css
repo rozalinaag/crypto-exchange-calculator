@@ -169,3 +169,12 @@ a.secondary {
   align-items: center;
   gap: 10px;
 }
+
+.button {
+  height: 30px;
+  width: 100px;
+  background-color: #98bdd9;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
