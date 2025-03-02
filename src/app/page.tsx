@@ -9,7 +9,7 @@ export default function Home() {
       <div>
         <div className={css.wrapper}>
           <div>
-            <div>Введите количесво</div>
+            <div>Введите количество</div>
             <input />
           </div>
 
