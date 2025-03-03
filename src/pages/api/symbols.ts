@@ -14,12 +14,6 @@ const data = [
     "formula_type": "default"
   },
   {
-    "symbol": "ETH_USDT",
-	"base": "ETH",
-    "quote": "USDT",
-    "formula_type": "default"
-  },
-  {
     "symbol": "AB_CD",
 	"base": "AB",
     "quote": "CD",
