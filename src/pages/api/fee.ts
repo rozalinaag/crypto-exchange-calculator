@@ -14,6 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     min_amount: '0.001',
     max_amount: '10.0',
     timestamp: 1697049600,
+    formulaId: 3,
   };
 
   res.status(200).json(feeData);
